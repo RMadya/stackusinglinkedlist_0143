@@ -73,4 +73,9 @@ int main() {
 
 		switch (choice) {
 
+		case 1:
+			cout << "Enter the value tio push: ";
+			cin >> value;
+			stack.push(value);
+			break;
 		
